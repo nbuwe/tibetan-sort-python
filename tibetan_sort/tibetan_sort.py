@@ -136,9 +136,3 @@ class TibetanSort:
                 return save_nb_chars, save_primary, save_secondary
 
         return save_nb_chars, save_primary, save_secondary
-               if save_nb_chars == 0:
-                    return 1, ord(string[i]), 0
-
-                return save_nb_chars, save_primary, save_secondary
-
-        return save_nb_chars, save_primary, save_secondary
