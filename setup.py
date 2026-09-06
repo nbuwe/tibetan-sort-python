@@ -6,7 +6,9 @@ from __future__ import print_function
 from pathlib import Path
 
 import setuptools
-from pkg_resources import parse_version
+# from pkg_resources import parse_version # obsoleted and removed in 3.12
+from importlib import metadata
+from packaging.version import parse as parse_version
 
 assert parse_version(setuptools.__version__) >= parse_version("38.6.0")
 
